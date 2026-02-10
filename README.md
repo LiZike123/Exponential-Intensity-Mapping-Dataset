@@ -22,41 +22,36 @@ Follow the steps below to set up the environment and run the code:
     ```bash
     pip install -r requirements.txt
 3.  **Download Large Files**
-    Due to GitHub file size limits, the dataset and additional resources are hosted on Baidu Netdisk:
+    Due to GitHub file size limits, the dataset and additional resources are hosted on Zenodo:
     
-    Download Link: [Exponential-Intensity-Mapping-Dataset.zip](https://pan.baidu.com/s/1zUObGqAiPDSCEYkhFnGDrA)
+    All figures are available on Zenodo with DOI: https://doi.org/10.5281/zenodo.18593835
     
-    Extract Code: eimm
+The Zenodo package includes the following folders:
+
+allp: Contains all images used in the paper.
+
+calib: 30 experimental images for extracting parameters m and c.
+
+code: All code files associated with the project.
+
+Label: Manually annotated contours of 79 images (for region-growing coverage and Canny edge detection analysis).
+
+Val: 79 validation images for quantitative analysis.
     
 After downloading, extract the files and place them in the project directory to ensure the notebooks can access the data correctly.
 ## Files and Folders
-The repository contains the following files and folders:
+The core code files in this repository (GitHub) are:
 
-FunctionImplementationAndComparison.ipynb: Compares images before and after mapping, visually demonstrating the performance of the preprocessing technique.
+FunctionImplementationAndComparison.ipynb: Compares images before/after mapping, visualizing the preprocessing performance.
 
-ParamsMandC.ipynb: Extracts the parameters m and c from 30 images based on the formula.
+ParamsMandC.ipynb: Extracts parameters m and c from 30 experimental images based on the proposed formula.
 
-validation.ipynb: Performs validation on 79 images for quantitative analysis.
-
-Additionally, large files are hosted on Baidu Netdisk:
-
-allp folder: Contains all images.
-
-calib folder: Contains 30 experimental images used for extracting m and c.
-
-code folder: Contains all the code files.
-
-Label folder: Contains the manually annotated contours of 79 images to assist in analyzing region-growing coverage and Canny edge detection.
-
-Val folder: Contains the 79 validation images.
+validation.ipynb: Validates the method on 79 images for quantitative analysis.
 
 ## Downloading Large Files
-Due to size limitations on GitHub, the following dataset files are hosted on Baidu Netdisk. You can download them from the link below:
-Download Link: [Exponential-Intensity-Mapping-Dataset.zip](https://pan.baidu.com/s/1zUObGqAiPDSCEYkhFnGDrA)
-
-Extract Code: eimm
-
-The total size of the files is approximately 1.46 GB.
+Due to size limitations on GitHub, the following dataset files are hosted on Zenodo. You can download them from the link below:
+https://doi.org/10.5281/zenodo.18593835
+The total size of the files is approximately 1.6 GB.
 
 ## Usage
 After downloading the necessary files, you can use the following Jupyter notebooks to explore and analyze the dataset:
