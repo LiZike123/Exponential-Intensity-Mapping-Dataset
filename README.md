@@ -39,6 +39,12 @@ Label: Manually annotated contours of 79 images (for region-growing coverage and
 Val: 79 validation images for quantitative analysis.
     
 After downloading, extract the files and place them in the project directory to ensure the notebooks can access the data correctly.
+
+## Please note： 
+The Calib and Val folders in this compressed package contain images randomly selected from all original images.
+The Label folder contains manually calibrated contour JSON files corresponding to the images in the Calib folder, provided for the convenience of researchers using the pre-selected images from the author.
+The function of randomly selecting 30 images from all original images (allP)is still preserved in ParamsMandC.ipynb.
+Researchers may choose the appropriate image files according to their own needs.
 ## Files and Folders
 The core code files in this repository (GitHub) are:
 
