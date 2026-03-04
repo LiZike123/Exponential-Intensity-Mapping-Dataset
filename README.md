@@ -2,7 +2,7 @@
 # Exponential Intensity Mapping
 
 ## Project Overview
-This repository contains the code for the paper **"Exponential Intensity Mapping: Enhancing Grayscale Stability in High-Temperature Forging Images"** published in *The Visual Computer*. 
+This repository contains the code for the paper **"Exponential Intensity Mapping: Enhancing Grayscale Stability in High-Temperature Forging Images"**. 
 
 ## Dependencies
 This project requires the following dependencies:
@@ -76,17 +76,4 @@ Contributions to this project are welcome! Please fork the repository and submit
 
 ## Contact
 If you have any questions about our work or code, please email niuliqun111@126.com .
-
-## Citation
-If you find this work useful in your research, please consider citing our paper:
-```bash
-    @article{niu2026exponential,
-    author    = {Liqun Niu and Zike Li and Xuming Wang and Bingzheng Wang and Zhenglong Liang},
-    title     = {Exponential Intensity Mapping: Enhancing Grayscale Stability in High-Temperature Forging Images},
-    journal   = {The Visual Computer},
-    year      = {2026},
-    publisher = {Springer}
-}
-
-
 
